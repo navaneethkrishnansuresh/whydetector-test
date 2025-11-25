@@ -91,9 +91,9 @@ class BrainDriveWhyDetectorLifecycleManager(BaseLifecycleManager):
     
     def __init__(self, plugins_base_dir: str = None):
         self.plugin_data = {
-            "name": "WhyDetectorCoach",
+            "name": "BrainDriveWhyDetector",
             "description": "Find Your Why - Multi-agent coaching flow to discover your core purpose",
-            "version": "1.0.1",
+            "version": "1.0.2",
             "type": "frontend",
             "icon": "Target",
             "category": "coaching",
@@ -118,7 +118,7 @@ class BrainDriveWhyDetectorLifecycleManager(BaseLifecycleManager):
         
         self.module_data = [
             {
-                "name": "WhyDetectorCoach",
+                "name": "BrainDriveWhyDetector",
                 "display_name": "Why Discovery Coach",
                 "description": "Guided coaching session to discover your personal Why",
                 "icon": "Target",
@@ -128,8 +128,8 @@ class BrainDriveWhyDetectorLifecycleManager(BaseLifecycleManager):
                 "config_fields": {},
                 "messages": {},
                 "required_services": {
-                    "api": {"methods": ["get", "post", "postStreaming"], "version": "1.0.1"},
-                    "theme": {"methods": ["getCurrentTheme", "addThemeChangeListener", "removeThemeChangeListener"], "version": "1.0.1"}
+                    "api": {"methods": ["get", "post", "postStreaming"], "version": "1.0.2"},
+                    "theme": {"methods": ["getCurrentTheme", "addThemeChangeListener", "removeThemeChangeListener"], "version": "1.0.2"}
                 },
                 "dependencies": [],
                 "layout": {

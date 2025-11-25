@@ -409,7 +409,7 @@ class BrainDriveWhyDetector extends Component<BrainDriveWhyDetectorProps, BrainD
             onClick={this.handleStartSession}
             disabled={isLoadingModels || !hasModels}
           >
-            {isLoadingModels ? 'Loading models...' : 'Find My Why'}
+            {isLoadingModels ? 'Loading models...' : 'Find My Why :)'}
           </button>
 
           <div className="welcome-time">
