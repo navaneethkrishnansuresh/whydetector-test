@@ -1,6 +1,6 @@
 {
   "name": "braindrive-whydetector",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Find Your Why - Multi-agent coaching flow to discover your core purpose",
   "main": "dist/remoteEntry.js",
   "scripts": {

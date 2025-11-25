@@ -91,9 +91,9 @@ class BrainDriveWhyDetectorLifecycleManager(BaseLifecycleManager):
     
     def __init__(self, plugins_base_dir: str = None):
         self.plugin_data = {
-            "name": "BrainDriveWhyDetector",
+            "name": "WhyDetectorCoach",
             "description": "Find Your Why - Multi-agent coaching flow to discover your core purpose",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "type": "frontend",
             "icon": "Target",
             "category": "coaching",
@@ -105,7 +105,7 @@ class BrainDriveWhyDetectorLifecycleManager(BaseLifecycleManager):
             "bundle_location": "dist/remoteEntry.js",
             "is_local": False,
             "long_description": "A guided coaching experience to help you discover your personal Why - your core purpose and what drives you.",
-            "plugin_slug": "BrainDriveWhyDetector",
+            "plugin_slug": "WhyDetectorCoach",
             "source_type": "github",
             "source_url": "https://github.com/navaneethkrishnansuresh/whydetector-test",
             "update_check_url": "https://github.com/navaneethkrishnansuresh/whydetector-test/releases/latest",
@@ -118,7 +118,7 @@ class BrainDriveWhyDetectorLifecycleManager(BaseLifecycleManager):
         
         self.module_data = [
             {
-                "name": "BrainDriveWhyDetector",
+                "name": "WhyDetectorCoach",
                 "display_name": "Why Discovery Coach",
                 "description": "Guided coaching session to discover your personal Why",
                 "icon": "Target",
@@ -128,8 +128,8 @@ class BrainDriveWhyDetectorLifecycleManager(BaseLifecycleManager):
                 "config_fields": {},
                 "messages": {},
                 "required_services": {
-                    "api": {"methods": ["get", "post", "postStreaming"], "version": "1.0.0"},
-                    "theme": {"methods": ["getCurrentTheme", "addThemeChangeListener", "removeThemeChangeListener"], "version": "1.0.0"}
+                    "api": {"methods": ["get", "post", "postStreaming"], "version": "1.0.1"},
+                    "theme": {"methods": ["getCurrentTheme", "addThemeChangeListener", "removeThemeChangeListener"], "version": "1.0.1"}
                 },
                 "dependencies": [],
                 "layout": {
