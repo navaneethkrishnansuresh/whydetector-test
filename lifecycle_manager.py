@@ -93,7 +93,7 @@ class BrainDriveWhyDetectorLifecycleManager(BaseLifecycleManager):
         self.plugin_data = {
             "name": "BrainDriveWhyDetector",
             "description": "Find Your Why - Multi-agent coaching flow to discover your core purpose",
-            "version": "1.0.2",
+            "version": "1.0.3",
             "type": "frontend",
             "icon": "Target",
             "category": "coaching",
@@ -105,7 +105,7 @@ class BrainDriveWhyDetectorLifecycleManager(BaseLifecycleManager):
             "bundle_location": "dist/remoteEntry.js",
             "is_local": False,
             "long_description": "A guided coaching experience to help you discover your personal Why - your core purpose and what drives you.",
-            "plugin_slug": "WhyDetectorCoach",
+            "plugin_slug": "BrainDriveWhyDetector",
             "source_type": "github",
             "source_url": "https://github.com/navaneethkrishnansuresh/whydetector-test",
             "update_check_url": "https://github.com/navaneethkrishnansuresh/whydetector-test/releases/latest",
@@ -128,8 +128,8 @@ class BrainDriveWhyDetectorLifecycleManager(BaseLifecycleManager):
                 "config_fields": {},
                 "messages": {},
                 "required_services": {
-                    "api": {"methods": ["get", "post", "postStreaming"], "version": "1.0.2"},
-                    "theme": {"methods": ["getCurrentTheme", "addThemeChangeListener", "removeThemeChangeListener"], "version": "1.0.2"}
+                    "api": {"methods": ["get", "post", "postStreaming"], "version": "1.0.3"},
+                    "theme": {"methods": ["getCurrentTheme", "addThemeChangeListener", "removeThemeChangeListener"], "version": "1.0.3"}
                 },
                 "dependencies": [],
                 "layout": {
